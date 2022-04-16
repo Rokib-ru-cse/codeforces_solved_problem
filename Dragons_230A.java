@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.TreeMap;
 
 
-public class Main {
+public class Dragons_230A {
     public static void main(String[] args) {
         int s, n;
         Scanner in = new Scanner(System.in);
@@ -15,10 +15,8 @@ public class Main {
             Integer b = in.nextInt();
             map.put(a, b);
         }
-        System.out.println(map);
         boolean flag = true;
         for (Map.Entry<Integer, Integer> e : map.entrySet()) {
-            System.out.println("s = "+s);
             if (e.getKey() < s) {
                 s += e.getValue();
             } else {
