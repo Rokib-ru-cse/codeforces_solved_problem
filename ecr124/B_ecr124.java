@@ -1,8 +1,8 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package ecr124;
+
 import java.util.Scanner;
 
-public class B {
+public class B_ecr124 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();

@@ -1,9 +1,8 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class B {
+public class B_781 {
 
     public static boolean equal(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
